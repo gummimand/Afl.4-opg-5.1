@@ -12,7 +12,7 @@ int main(void){
 	printf("Insert the value of a, b & c\n");
 	scanf("%lf%lf%lf",&a,&b,&c);
 
-	disk = dicriminant(a, b, c);
+	disk = discriminant(a, b, c);
 	
 
 	if (disk == 0){
@@ -32,12 +32,13 @@ int main(void){
 
 double discriminant(double a, double b, double c)
 {
-discriminant = (b * b - 4 * a * c);
+    double discriminant = (b * b - 4 * a * c);
 
- return (discriminant);
+    return (discriminant);
 }
 
 double solveRootPos(double a, double b, double discriminant){
+
   double root2;
   root2 = (-b + sqrt(discriminant))/(2*a);
 

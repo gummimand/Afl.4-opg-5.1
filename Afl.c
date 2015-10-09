@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <math.h>
 
@@ -41,3 +40,9 @@ int main(void){
 	return 0;
 }
 
+double discriminant(a, b, c)
+{
+discriminant = b * b - 4 * a * c;
+
+ return (discrimant);
+}

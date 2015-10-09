@@ -12,6 +12,7 @@
  */
 
 
+
 //Includes
 #include <stdio.h>
 #include <math.h>
@@ -20,6 +21,8 @@
 double discriminant(double a,double b,double c);
 double solveRootPos(double a,double b,double discriminant);
 double solveRootNeg(double a,double b,double d);
+
+
 
 //Main
 int main(void) {
@@ -50,6 +53,7 @@ int main(void) {
 }
 
 
+
 //Function for calculating the diskriminant.
 double discriminant(double a, double b, double c)
 {
@@ -57,6 +61,7 @@ double discriminant(double a, double b, double c)
 
     return (discriminant);
 }
+
 
 
 //Function for findind the first root.
@@ -67,6 +72,8 @@ double solveRootPos(double a, double b, double discriminant){
 
   return (root2);
 }
+
+
 
 //Function for finding the second root.
 double solveRootNeg(double a, double b, double d) {

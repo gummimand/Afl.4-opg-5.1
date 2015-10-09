@@ -4,3 +4,10 @@ double solveRootPos(a, b, discriminant){
 
   return (root2);
 }
+
+
+double solveRootNeg(a, b, d) {
+    
+    return (-b -sqrt(d))/(2*a);
+    
+}
